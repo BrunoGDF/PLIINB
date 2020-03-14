@@ -20,7 +20,7 @@ Bruno G. D. Faria
 # **O que é o PLIINB? 🔍**
 Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário usará comandos de voz para maarcar compromissos, checar horários, alarmes, entre outros.
 
-# **Ferramentas e Linguagens**:tw-1f527: 
+# **Ferramentas e Linguagens** :tw-1f527: 
 Ferramentas utilizadas para o desenvolvimento do projeto:
 
 -Python 3.6 (com Flask)
