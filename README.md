@@ -23,19 +23,33 @@ Assistente Pessoal Virtual vinculado à API Google Calendar, API no qual o usuá
 ### **Lista de comandos possíveis:**
 
 -Abrir agenda
+
 -Fechar agenda
+
 -Selecionar horários, dia, mês e ano
+
 -Definir Alarme
+
 -Ler compromissos do dia
+
 -Digitar compromisso
+
 -Excluir compromisso
+
 -Editar compromisso
+
 -Selecionar tempo em cronômetro
+
 -Listar eventos/Aniversariantes
+
 -Mover cursor
+
 -Abrir notícias do dia
+
 -Ler notícias
+
 -Abrir aplicativos de notas
+
 -Falar previsão do tempo
 
 # **Ferramentas e Linguagens** 🛠️ 
