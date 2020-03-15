@@ -56,4 +56,5 @@ Assistente Pessoal Virtual vinculado à API Google Calendar, API no qual o usuá
 Ferramentas utilizadas para o desenvolvimento do projeto:
 
 -Python 3.6 (com Flask)
+
 -Spyder (IDE)
