@@ -1,9 +1,0 @@
-# PLIINB
-
-Entrega 2
-
-Nesta etapa , faremos a entrega de dois commmits, 
-um arquivo de nome "NIPIL (1).pdf" com o esboço de uma possivel tela de como seria 
-nosso programa e um aquivo identificado como "audio.py" que reconhece a voz e a 
-transforma em texto, sendo assim ele consegue 
-também através de uma voz repetir a fala.
