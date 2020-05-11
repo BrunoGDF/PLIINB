@@ -1,2 +1,0 @@
-Entrega 2
-Nesta etapa , faremos a entrega de dois commmits, um com o esboço de uma possi tela de como seria nosso programa e um código que reconhece a voz e a transforma em texto, sendo assim ele consegue também através de uma voz repetir a fala.
