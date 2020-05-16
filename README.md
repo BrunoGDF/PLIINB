@@ -58,3 +58,5 @@ Ferramentas utilizadas para o desenvolvimento do projeto:
 -Python 3.6 (com Flask)
 
 -Spyder (IDE)
+
+-Agenda do Google (API Google Calendar)
