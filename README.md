@@ -10,7 +10,7 @@ Projeto Integrador - FATEC 2020 1º Sem - BD
 
 -Lucas Rodrigues
 
--Natalia A. Romanini
+-Natália A. Romanini
 
 -Pedro Garcia
 
