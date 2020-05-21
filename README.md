@@ -18,7 +18,7 @@ Projeto Integrador - FATEC 2020 1º Sem - BD
 Bruno G. D. Faria
 
 # **O que é o PLIINB? 🔍**
-Assistente Pessoal Virtual vinculado à API Google Calendar, API no qual o usuário usará comandos de voz para maarcar compromissos, checar horários, alarmes, entre outros.
+Assistente Pessoal Virtual vinculado à API Google Calendar, API no qual o usuário usará comandos de voz para marcar compromissos, checar horários, alarmes, entre outros.
 
 ### **Lista de comandos possíveis:**
 
