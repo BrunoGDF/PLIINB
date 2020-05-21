@@ -1,0 +1,25 @@
+body{
+    border: #000 solid 1px;
+}
+
+#d1{
+    background-color: #000;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 30px;
+
+}
+
+h1{
+    color: aliceblue;
+    font-family: Arcade Classic;
+    text-align: center;
+
+}
+
+h5{
+    color: aliceblue;
+    font-family: Arcade Classic;
+    text-align: center;
+
+}
