@@ -14,11 +14,13 @@ microphone = sr.Microphone()    #inicializa microphone
 
 #variaveis Globais
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
-DIAS = ["segunda", "terça", "quarta", "quinta", "sexta", "sabado", "domingo"]
+dayS = ["segunda", "terça", "quarta", "quinta", "sexta", "sabado", "domingo"]
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", \
          "setembro", "outubro", "novembro", "dezembro"]
+dayNUM = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"]
 
 
+#reconhecimento de Voz
 def reconhecimento():
     with microphone as source: 
     	recognizer.adjust_for_ambient_noise(source)     #calibra o microfone
@@ -29,11 +31,9 @@ def reconhecimento():
     with open("outputs.txt","w") as arquivo:   #abre arquivo 'outuputs.txt' para modo escrita                                  
     	arquivo.write(retornoAudio) # escreve no arquivo  o retorno do audio
     
-    print(retornoAudio)	#imprime na tela o retorno do audio
+    return retornoAudio
     
-    
-
-
+#autenticação de Usuário    
 def autenticacao_google():
     """Shows basic usage of the Google Calendar API.
     Prints the start and name of the next 10 events on the user's calendar.
@@ -58,6 +58,7 @@ def autenticacao_google():
    
     return service
 
+#lista Eventos
 def eventos(n, service):
     # Call the Calendar API
     now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
@@ -73,8 +74,51 @@ def eventos(n, service):
         start = event['start'].get('dateTime', event['start'].get('date'))
         print(start, event['summary'])
 
-def dia(text):
+#reconhece uma palabvra chave para eventos no mes
+def day(text):
     text = text.lower()
+    hoje = datetime.date.today()
 
-service = autenticacao_google()
-eventos(2, service)
+    if text.count("hoje") > 0:
+        return hoje
+    
+    day = -1
+    day_da_semana = -1
+    month = -1
+    year = hoje.year
+    
+    for palavra in text.split():
+        if palavra in MESES:
+            month = MESES.index(palavra) + 1 # procura pelo nome do mês
+        elif palavra in dayS:
+            day_da_semana = dayS.index(palavra) # procura pelo nome do day
+        elif palavra.isdigit():
+            day = int(palavra)
+        else:
+            for nume in dayNUM:
+                found = palavra.find(nume)
+                if found > 0:
+                    try :
+                        day = int(palavra[:found])
+                    except:
+                        pass
+    if month < hoje.month and month != -1: # condição para verificar year atual
+        year = year+1
+    
+    if day < hoje.day and month == -1 and day != -1: #condição para verificar mes
+        month = month + 1
+        
+    if month == -1 and day == -1 and day_da_semana != -1:
+        atual_day_da_semana = hoje.weekday()
+        dif = day_da_semana - atual_day_da_semana
+        
+        if dif < 0:
+            dif += 7
+            if text.count("next") >= 1:
+                dif += 7
+        return hoje + datetime.timedelta(dif)
+    
+    return datetime.date(month=month, day=day, year=year)
+
+text = reconhecimento().lower()
+print(day(text))
