@@ -23,7 +23,6 @@ dayNUM = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nov
                   "vinte e quatro", "vinte e cinco", "vinte e seis", "vinte e sete", \
                       "vinte e oito", "vinte e nove", "trinta", "trinta e um"]
 
-
 #reconhecimento de Voz
 def reconhecimento():
     with microphone as source: 
@@ -39,9 +38,7 @@ def reconhecimento():
     
 #autenticação de Usuário    
 def autenticacao_google():
-    """Shows basic usage of the Google Calendar API.
-    Prints the start and name of the next 10 events on the user's calendar.
-    """
+    
     creds = None
     if os.path.exists('token.pickle'):
         with open('token.pickle', 'rb') as token:
@@ -87,23 +84,23 @@ def day(text):
         return hoje
     
     day = -1
-    day_da_semana = -1
+    day_of_week = -1
     month = -1
     year = hoje.year
     
-    for palavra in text.split():
-        if palavra in MESES:
-            month = MESES.index(palavra) + 1 # procura pelo nome do mês
-        elif palavra in dayS:
-            day_da_semana = dayS.index(palavra) # procura pelo nome do day
-        elif palavra.isdigit():
-            day = int(palavra)
+    for word in text.split():
+        if word in MESES:
+            month = MESES.index(word) + 1 # procura pelo nome do mês
+        elif word in dayS:
+            day_of_week = dayS.index(word) # procura pelo nome do day
+        elif word.isdigit():
+            day = int(word)
         else:
             for nume in dayNUM:
-                found = palavra.find(nume)
+                found = word.find(nume)
                 if found > 0:
                     try :
-                        day = int(palavra[:found])
+                        day = int(word[:found])
                     except:
                         pass
     if month < hoje.month and month != -1: # condição para verificar year atual
@@ -112,9 +109,9 @@ def day(text):
     if day < hoje.day and month == -1 and day != -1: #condição para verificar mes
         month = month + 1
         
-    if month == -1 and day == -1 and day_da_semana != -1:
-        atual_day_da_semana = hoje.weekday()
-        dif = day_da_semana - atual_day_da_semana
+    if month == -1 and day == -1 and day_of_week != -1:
+        current_day_of_week = hoje.weekday()
+        dif = day_of_week - current_day_of_week
         
         if dif < 0:
             dif += 7
@@ -125,4 +122,5 @@ def day(text):
     return datetime.date(month=month, day=day, year=year)
 
 text = reconhecimento().lower()
+print(reconhecimento())
 print(day(text))
