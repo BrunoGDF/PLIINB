@@ -17,7 +17,11 @@ SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
 dayS = ["segunda", "terça", "quarta", "quinta", "sexta", "sabado", "domingo"]
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", \
          "setembro", "outubro", "novembro", "dezembro"]
-dayNUM = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"]
+dayNUM = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez", \
+          "onze", "doze", "treze", "quatorze", "quinze", "dezesseis", "dezessete", \
+              "dezoito", "dezenove", "vinte", "vinte e um", "vinte e dois", "vinte e três" \
+                  "vinte e quatro", "vinte e cinco", "vinte e seis", "vinte e sete", \
+                      "vinte e oito", "vinte e nove", "trinta", "trinta e um"]
 
 
 #reconhecimento de Voz
