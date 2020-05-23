@@ -1,7 +1,0 @@
-Entrega 2:
-
-Faremos a entrega de dois commmits, 
-no arquivo "NIPIL.pdf" é  um esboço de uma possivel tela do nosso programa
-e no arquivo "audio.py" é o código que reconhece a voz e a transforma em texto, 
-sendo assim, ele consegue também através de um comando de voz 
-reproduzir a frase dita em texto escrito.
