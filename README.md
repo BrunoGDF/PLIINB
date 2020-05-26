@@ -35,3 +35,7 @@ Ferramentas utilizadas para o desenvolvimento do projeto:
 - Spyder (IDE)
 
 - Agenda do Google (API Google Calendar)
+
+- A ferramenta de gerenciamento de pacotes pip
+
+- Uma conta do Google com o Google Agenda ativado
