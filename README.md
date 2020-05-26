@@ -31,11 +31,8 @@ Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário 
 Ferramentas utilizadas para o desenvolvimento do projeto:
 
 - Python 3.6 (com Flask)
+Foi realizada uma pesquisa entre os frameworks Justpy e o Flask para saber qual se adequaria melhor ao projeto, onde foi decidido que seria utilizado o Flask pois o justpy apresentou erro ao rodar.
 
 - Spyder (IDE)
 
 - Agenda do Google (API Google Calendar)
-
-- A ferramenta de gerenciamento de pacotes pip
-
-- Uma conta do Google com o Google Agenda ativado
