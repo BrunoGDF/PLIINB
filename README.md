@@ -36,3 +36,7 @@ Foi realizada uma pesquisa entre os frameworks Justpy e o Flask para saber qual 
 - Spyder (IDE)
 
 - Agenda do Google (API Google Calendar)
+
+- A ferramenta de gerenciamento de pacotes pip
+
+- Uma conta do Google com o Google Agenda ativado
