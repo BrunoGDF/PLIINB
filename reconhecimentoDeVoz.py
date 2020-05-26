@@ -6,7 +6,6 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 import speech_recognition as sr #importa biblioteca speech_recognition
-from gtts import gTTS           #importa biblioteca gTTS
 import os                       #importa biblioteca do sistema operacional 
 
 recognizer = sr.Recognizer()    #inicializa reconhecimento de voz
