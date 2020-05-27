@@ -36,3 +36,13 @@ Foi realizada uma pesquisa entre os frameworks Justpy e o Flask para saber qual 
 - Spyder (IDE)
 
 - Agenda do Google (API Google Calendar)
+
+# **Entrega 03** 
+
+Foram adcionadas funções ao arquivo reconhecimentoDeVoz.py presente na Branch Sprint03, que são capazes de 
+identificar em uma frase a data pela qual o usuário procura. 
+
+O arquivo credentials.json presente na Branch Sprint03 é responsável por autenticar o acesso ao e-mail do 
+usuário.
+
+
