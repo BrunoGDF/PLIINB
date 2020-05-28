@@ -31,7 +31,6 @@ Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário 
 Ferramentas utilizadas para o desenvolvimento do projeto:
 
 - Python 3.6 (com Flask)
-Foi realizada uma pesquisa entre os frameworks Justpy e o Flask para saber qual se adequaria melhor ao projeto, onde foi decidido que seria utilizado o Flask pois o justpy apresentou erro ao rodar.
 
 - Spyder (IDE)
 
@@ -48,6 +47,10 @@ identificar em uma frase a data pela qual o usuário procura.
 
 O arquivo credentials.json presente na Branch Sprint03 é responsável por autenticar o acesso ao e-mail do 
 usuário.
+
+Foi realizada uma pesquisa entre os frameworks Justpy e o Flask para saber qual se adequaria melhor ao projeto, onde foi decidido que seria utilizado o Flask pois o justpy apresentou erro ao rodar.
+
+O arquivo Olá mundo.py na Branch Sprint03 mostra a comunicação do Python com o Flask.
 
 
 
