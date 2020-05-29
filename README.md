@@ -25,7 +25,7 @@ Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário 
 -   Consultar agenda;
 -   Fechar agenda;
 -   Ler compromissos do dia;
--   Digitar compromisso;
+-   Incluir compromisso;
 -   Editar compromisso;
 -   Excluir compromisso.
 
