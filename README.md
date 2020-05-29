@@ -22,7 +22,7 @@ Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário 
 
 ### [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#lista-de-comandos-poss%C3%ADveis)**Lista de comandos possíveis:**
 
--   Abrir agenda;
+-   Consultar agenda;
 -   Fechar agenda;
 -   Ler compromissos do dia;
 -   Digitar compromisso;
