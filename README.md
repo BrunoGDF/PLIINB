@@ -22,10 +22,10 @@ Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário 
 
 ### [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#lista-de-comandos-poss%C3%ADveis)**Lista de comandos possíveis:**
 
--   Consultar agenda;
+-   Abrir agenda;
 -   Fechar agenda;
 -   Ler compromissos do dia;
--   Incluir compromisso;
+-   Digitar compromisso;
 -   Editar compromisso;
 -   Excluir compromisso.
 
@@ -44,7 +44,7 @@ Ferramentas utilizadas para o desenvolvimento do projeto:
 -   Uma conta do Google com o Google Agenda ativado
 
 
-### []
+
 # Criando  o PLIINB
 
 Assistente Pessoal Virtual 
@@ -93,8 +93,13 @@ pip install gTTS
 ## [](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#built-with)Execução do Código
 
 
-Colocar informações sobre a execução do código.
-
+O código é composto por funções, a primeira função tem o papel de reconhecimento de voz, após isso
+identifica o idioma e armazena o som em uma variável (retornoAudio). A próxima função faz a autenticação
+das credênciais direcionando o usuário para dar as permissões necessárias.
+Dadas as premissões o código possui a função eventos que vai identificar a existência ou não de eventos
+na agenda. E a última função presente no código de nome (day) procura por palavras chave em uma frase dita ao 
+reconhecimento para identificar a data solicitada pelo usuário, exemplo "Eventos no dia 10 de Junho", ele 
+identifica na frase a data 10 de junho. 
 
 
 ## [](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#running-the-tests)Reconhecimento de voz
