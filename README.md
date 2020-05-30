@@ -76,27 +76,22 @@ Bibliotecas necessárias para obter um ambiente de desenvolvimento em execução
 
 ```
 pip install google-api-python-client
-
 ```
 
 ```
 pip install google-auth-oauthlib
-
 ```
 
 ```
 pip install google-auth
-
 ```
 
 ```
 pip install SpeechRecognition
-
 ```
 
 ```
 pip install gTTS
-
 ```
 
 ## [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#execu%C3%A7%C3%A3o-do-c%C3%B3digo)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#built-with)Execução do Código
@@ -108,11 +103,11 @@ Código do reconhecimento de voz: [https://github.com/BrunoGDF/PLIINB/blob/maste
 
 Flask: [https://github.com/BrunoGDF/PLIINB/blob/Sprint03/Ol%C3%A1%20mundo.py](https://github.com/BrunoGDF/PLIINB/blob/Sprint03/Ol%C3%A1%20mundo.py)
 
-## [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#reconhecimento-de-voz)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#running-the-tests)Reconhecimento de voz
+### [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#instalar--os-softwares)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#prerequisites)Reconhecimento de voz
 
 Iniciado o reconhecimento de voz, é identificado o idioma (Português), ao qual armazena o som em uma variável (retornoAudio). 
 
-## [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#autentica%C3%A7%C3%A3o-de-usu%C3%A1rio)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#deployment)Autenticação de Usuário
+### [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#instalar--os-softwares)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#prerequisites)Autenticação de Usuário
 
 A próxima função faz a autenticação das credênciais direcionando o usuário para dar as permissões necessárias.
 
@@ -125,11 +120,11 @@ SENHA:
 
  Dadas as premissões, o código possui a função eventos que vai identificar a existência ou não de eventos na agenda.
 
-## [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#reconhecimento-de-voz)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#running-the-tests)Acesso à agenda
+### [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#instalar--os-softwares)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#prerequisites)Acesso à agenda
 
 A última função presente no código, nome (day) procura por palavras chave em uma frase dita ao reconhecimento para identificar a data solicitada pelo usuário, por exemplo: "Eventos no dia 10 de Junho", ele identifica na frase a data 10 de junho.
 
-Link do comando: 
+Comando: 
 [https://github.com/BrunoGDF/PLIINB/blob/Sprint03/reconhecimentoDeVoz.py](https://github.com/BrunoGDF/PLIINB/blob/Sprint03/reconhecimentoDeVoz.py)
 
 
