@@ -104,6 +104,10 @@ pip install SpeechRecognition
 pip install gTTS
 ```
 
+```
+pip install PyAudio
+```
+
 ## [](https://github.com/BrunoGDF/PLIINB#execu%C3%A7%C3%A3o-do-c%C3%B3digo)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#execu%C3%A7%C3%A3o-do-c%C3%B3digo)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#built-with)Execução do Código
 
 O código do PLIINB é composto por funções, a primeira função tem o papel de reconhecimento de voz. Código do reconhecimento de voz:  [https://github.com/BrunoGDF/PLIINB/blob/master/Entrega_2/audio.py](https://github.com/BrunoGDF/PLIINB/blob/master/Entrega_2/audio.py)
