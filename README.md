@@ -25,9 +25,13 @@ Ferramentas utilizadas para o desenvolvimento do projeto:
 -   Spyder (IDE)
     
 -  Agenda do Google (API Google Calendar)
--  StackEdit 
+
+-   Trello
+
+- StackEdit 
+
 - Github <[https://github.com/BrunoGDF/PLIINB/](https://github.com/BrunoGDF/PLIINB/)
-- Trello <[https://trello.com/b/WIAbDetV/pliinb](https://trello.com/b/WIAbDetV/pliinb)
+
     
     
 # [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#criando--o-pliinb)Criando o PLIINB
@@ -86,6 +90,7 @@ SENHA:
  Dadas as premissões, o código possui a função eventos que vai identificar a existência ou não de eventos na agenda.
 ### [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#instalar--os-softwares)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#prerequisites)Acesso à agenda
 A última função presente no código, nome (day) procura por palavras chave em uma frase dita ao reconhecimento para identificar a data solicitada pelo usuário, por exemplo: "Eventos no dia 10 de Junho", ele identifica na frase a data 10 de junho.
+
 Comando: 
 [https://github.com/BrunoGDF/PLIINB/blob/Sprint03/reconhecimentoDeVoz.py](https://github.com/BrunoGDF/PLIINB/blob/Sprint03/reconhecimentoDeVoz.py)
 ## [](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#frameworks)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#built-with)Frameworks
