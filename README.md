@@ -154,6 +154,8 @@ Utilizamos o Python 3.6 (com Flask) após uma pesquisa entre os frameworks Justp
 Seguindo as definições da Entrega 3 conforme citado acima, segue o link para a branch da entrega:
 [https://github.com/BrunoGDF/PLIINB/tree/Sprint03](https://github.com/BrunoGDF/PLIINB/tree/Sprint03)
 
+## [](https://github.com/BrunoGDF/PLIINB#pr%C3%B3ximos-passos)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#pr%C3%B3ximos-passos)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#contributing)Entrega 4
+
 
 Conforme foi definido os próximos passos para entrega 4, foram encontradas algumas dificuldades, porém sobressaiu o sucesso da equipe em grandes avanços com exitos onde o codigo executa as seguintes funções:
 
