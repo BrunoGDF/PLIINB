@@ -131,10 +131,9 @@ Dadas as premissões, o código possui a função eventos que vai identificar a 
 
 ### [](https://github.com/BrunoGDF/PLIINB#acesso-%C3%A0-agenda)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#instalar--os-softwares)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#prerequisites)Acesso à agenda
 
-A última função presente no código, nome (day) procura por palavras chave em uma frase dita ao reconhecimento para identificar a data solicitada pelo usuário, por exemplo: "Eventos no dia 10 de Junho", ele identifica na frase a data 10 de junho.
+As funções (eventos) e (day) presentes no código possuem a função de procurar por palavras chave em uma frase dita ao reconhecimento e retornar ao usuário os compromissos daquele dia. Por exemplo, ao falar: "Eventos no dia 10 de Junho", ele identifica compromissos na data ou avisa que não há eventos no dia.
 
-Comando:  [https://github.com/BrunoGDF/PLIINB/blob/Sprint03/reconhecimentoDeVoz.py](https://github.com/BrunoGDF/PLIINB/blob/Sprint03/reconhecimentoDeVoz.py)
-
+A função (editarEventos) possibilita ao usuário fazer alterações em um evento, seja no título ou data do compromisso.
 
 ## [](https://github.com/BrunoGDF/PLIINB#frameworks)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#frameworks)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#built-with)Frameworks
 
@@ -151,16 +150,27 @@ Utilizamos o Python 3.6 (com Flask) após uma pesquisa entre os frameworks Justp
 
 ## [](https://github.com/BrunoGDF/PLIINB#pr%C3%B3ximos-passos)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#pr%C3%B3ximos-passos)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#contributing)Entrega 3
 
-Seguindo as definições da Entrega 3 conforme citado acima, segue o link para a branch da entrega:
+De acordo com o planejado para a entrega 3, o grupo atingiu as metas e obeteve os seguintes avanços:
+
+Interação do Python com Google Calender API através da autenticação com json-https://github.com/BrunoGDF/PLIINB/blob/Sprint03/reconhecimentoDeVoz.py
+
+Interação do Python com interface web(Flask)- https://github.com/BrunoGDF/PLIINB/blob/Sprint03/Ol%C3%A1%20mundo.py
+
+Realização do
 [https://github.com/BrunoGDF/PLIINB/tree/Sprint03](https://github.com/BrunoGDF/PLIINB/tree/Sprint03)
 
 ## [](https://github.com/BrunoGDF/PLIINB#pr%C3%B3ximos-passos)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#pr%C3%B3ximos-passos)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#contributing)Entrega 4
 
 
-Conforme foi definido os próximos passos para entrega 4, foram encontradas algumas dificuldades, porém sobressaiu o sucesso da equipe em grandes avanços com exitos onde o codigo executa as seguintes funções:
-
-Comando para fechamento da agenda. ✔️
+Conforme foi definido os próximos passos para entrega 4, foram encontradas algumas dificuldades, porém sobressaiu o sucesso da equipe em grandes avanços com êxitos onde o codigo executa as seguintes funções:
 
 Comando para abrir agenda. ✔️
 
+Comando para criar compromissos. ✔️ 
+
 Comando para editar compromissos na agenda. ✔️
+
+Comando para fechamento da agenda. ✔️
+
+Acesso aos comandos realizados: https://github.com/BrunoGDF/PLIINB/tree/Sprint04
+
