@@ -150,7 +150,7 @@ Utilizamos o Python 3.6 (com Flask) após uma pesquisa entre os frameworks Justp
 
 ## [](https://github.com/BrunoGDF/PLIINB#pr%C3%B3ximos-passos)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#pr%C3%B3ximos-passos)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#contributing)Entrega 3
 
-De acordo com o planejado para a entrega 3, o grupo atingiu as metas e obeteve os seguintes avanços:
+De acordo com o planejado para a entrega 3, o grupo atingiu as metas e obteve os seguintes avanços:
 
 Interação do Python com Google Calender API através da autenticação com json-https://github.com/BrunoGDF/PLIINB/blob/Sprint03/reconhecimentoDeVoz.py
 
