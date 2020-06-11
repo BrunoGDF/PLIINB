@@ -156,8 +156,6 @@ Interação do Python com Google Calender API através da autenticação com jso
 
 Interação do Python com interface web(Flask)- https://github.com/BrunoGDF/PLIINB/blob/Sprint03/Ol%C3%A1%20mundo.py
 
-Realização do
-[https://github.com/BrunoGDF/PLIINB/tree/Sprint03](https://github.com/BrunoGDF/PLIINB/tree/Sprint03)
 
 ## [](https://github.com/BrunoGDF/PLIINB#pr%C3%B3ximos-passos)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#pr%C3%B3ximos-passos)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#contributing)Entrega 4
 
