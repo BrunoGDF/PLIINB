@@ -166,9 +166,9 @@ Comando para abrir agenda. ✔️
 
 Comando para criar compromissos. ✔️ 
 
-Comando para editar compromissos na agenda. ✔️
-
 Comando para fechamento da agenda. ✔️
+
+Comando para editar compromissos na agenda. (codigo pronto, porem, finalizando últimas correções visnado qualidade ao cliente) 🛠
 
 Acesso aos comandos realizados: https://github.com/BrunoGDF/PLIINB/tree/Sprint04
 
