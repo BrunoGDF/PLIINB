@@ -172,3 +172,5 @@ Comando para editar compromissos na agenda. (codigo pronto, porem, finalizando �
 
 Acesso aos comandos realizados: https://github.com/BrunoGDF/PLIINB/tree/Sprint04
 
+Vídeo de apresentação está contido no arquivo rar: https://github.com/BrunoGDF/PLIINB/blob/master/Video_Apresentacao_Entrega4.rar
+
