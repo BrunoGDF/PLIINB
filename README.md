@@ -175,7 +175,7 @@ Acesso aos comandos realizados: https://github.com/BrunoGDF/PLIINB/tree/Sprint04
 Vídeo de apresentação está contido no arquivo rar: https://github.com/BrunoGDF/PLIINB/blob/master/Video_Apresentacao_Entrega4.rar
 
 
-## [](https://github.com/BrunoGDF/PLIINB#pr%C3%B3ximos-passos)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#pr%C3%B3ximos-passos)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#contributing)Entrega 4
+## [](https://github.com/BrunoGDF/PLIINB#pr%C3%B3ximos-passos)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#pr%C3%B3ximos-passos)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#contributing)Entrega 5
 
 Nesta entrega realizamos uma interação de voz com a API desenvolvida pelos alunos do 6º semestre voltada a pesquisa de filmes, foi concluído também o comando editar, ele possibilita a consulta e a alteração de um compromisso na agenda. Sendo assim, o objetivo final da entrega de 5 comandos teve sucesso.
 
