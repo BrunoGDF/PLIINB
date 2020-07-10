@@ -11,6 +11,9 @@ from google.auth.transport.requests import Request
 import speech_recognition as sr #importa biblioteca speech_recognition
 import os                       #importa biblioteca do sistema operacional 
 import pytz
+import json
+import requests
+from googletrans import Translator
 
 recognizer = sr.Recognizer()    #inicializa reconhecimento de voz
 microphone = sr.Microphone()    #inicializa microphone
