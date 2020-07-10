@@ -284,7 +284,43 @@ def criar(service):
     event = service.events().insert(calendarId='primary', body=event).execute()
     print ('Compromisso agendado: %s' % (event.get('htmlLink')))
 
-  
+def web():
+    translator = Translator()
+    r = requests.get('https://r4u.herokuapp.com/getFilme/4')
+    if r.status_code == 200:
+        reddit_data = json.loads(r.content)
+        u = reddit_data['filme']
+        o = requests.get('http://www.omdbapi.com/?t={}&apikey=ed2baf'.format(u))
+        reddit2_data = json.loads(o.content)
+        lin()
+        print("Titulo:")
+        print(reddit2_data['Title'])
+        print('')
+        lin()
+        print('Lançamento:')
+        
+        print(reddit2_data['Released'])
+        print('')
+        lin()
+        print('Genero: ')
+        traduGenre = translator.translate(reddit2_data['Genre'], dest='pt')
+        print(traduGenre.text)
+        print('')
+        lin()
+        print('Duração: ')
+        
+        print(reddit2_data['Runtime'])
+        print('')
+        lin()
+        print('Sinopse: ')
+        
+        traduPLot = translator.translate(reddit2_data['Plot'], dest='pt')
+        print(traduPLot.text)
+        print('')
+        lin()
+    else:
+        print('Erro')
+    return web  
 
 autenticacao_google()
 lin()
@@ -317,6 +353,8 @@ while not sair:
         lin()
         print("Consultar compromissos diga (consulta)")
         lin()
+        print("Sugestão de Filmes diga (filme)")
+        lin()  
         print("Finalizar diga (Sair)")
         lin()
         text = reconhecimento().lower()
@@ -325,6 +363,8 @@ while not sair:
             sair = True
         elif text == 'criar':
             criar(SERVICE)
+        elif text == 'filme':
+            web()
         elif text == 'consulta':
             print("Qual data deseja consultar ?")
             text = reconhecimento().lower()
