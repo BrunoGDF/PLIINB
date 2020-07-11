@@ -9,7 +9,6 @@ Projeto Integrador - FATEC 2020 1º Sem - Banco de Dados
 -   Isidro A. A. Jr.
 -   Israel Zanardi
 -   Lucas Rodrigues
--   Natália Assis Romanini
 -   Pedro Garcia
 
 ### [](https://github.com/BrunoGDF/PLIINB#master)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#master)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#master)**Master**
@@ -183,4 +182,15 @@ Vídeo de apresentação: https://drive.google.com/file/d/1haTgoNxlE3Bz-iWjvClHn
 
 
 ## [](https://github.com/BrunoGDF/PLIINB#pr%C3%B3ximos-passos)[](https://github.com/BrunoGDF/PLIINB/blob/master/README.md#pr%C3%B3ximos-passos)[](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#contributing)Entrega final
+
+Conforme planejado para a última entrega, aperfeiçoamos a consumação da API relacionada a filmes desenvolvida pelo 6º semestre e corrigimos a falha do horário que estava presente no código.
+
+Linkedin dos inegrantes do grupo:
+Isidro A. A. Jr - https://www.linkedin.com/in/isidro-augusto-4671661a4/
+Israel Zanardi - https://www.linkedin.com/in/israel-zanardi-916a57a7/
+Lucas Rodrigues - https://www.linkedin.com/in/lucas-monteiro-56585117b
+Pedro Garcia - https://www.linkedin.com/in/pedro-garcia-b41696195/
+Bruno G. D. Faria (scrum master) - https://www.linkedin.com/in/bruno-dionisio-6134451a7/
+
+Vídeo de apresentação: https://drive.google.com/file/d/1l-HaBL_MZ-HcfA4BPJVcnjzqV7i7E-4z/view?usp=sharing
 
